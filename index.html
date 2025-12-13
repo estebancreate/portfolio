@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esteban - AI Developer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: white;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 0;
+        }
+
+        h1 {
+            font-size: 4em;
+            margin-bottom: 20px;
+            animation: fadeIn 1s;
+        }
+
+        .tagline {
+            font-size: 1.5em;
+            opacity: 0.9;
+            animation: fadeIn 1.5s;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            margin: 60px 0;
+        }
+
+        .stat-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 30px;
+            border-radius: 20px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .stat-number {
+            font-size: 3em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .projects {
+            margin: 60px 0;
+        }
+
+        .section-title {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .project-card {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            padding: 30px;
+            border-radius: 20px;
+            transition: all 0.3s;
+        }
+
+        .project-card:hover {
+            transform: scale(1.05);
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .project-title {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+        }
+
+        .project-desc {
+            opacity: 0.9;
+            line-height: 1.6;
+        }
+
+        .cta {
+            text-align: center;
+            margin: 80px 0 40px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 20px 50px;
+            background: white;
+            color: #667eea;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 1.2em;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+
+        .cta-button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+
+        .contact {
+            text-align: center;
+            padding: 40px 0;
+            font-size: 1.2em;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 2.5em; }
+            .tagline { font-size: 1.2em; }
+            .stat-number { font-size: 2em; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Esteban Mo</h1>
+            <p class="tagline">17-Year-Old AI Developer | Building the Future</p>
+            <p class="tagline">Tijuana → Silicon Valley</p>
+        </header>
+
+        <section class="stats">
+            <div class="stat-card">
+                <div class="stat-number" id="days">1</div>
+                <div>Days of Coding</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="projects">0</div>
+                <div>Projects Built</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="commits">0</div>
+                <div>GitHub Commits</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">$1M</div>
+                <div>Goal</div>
+            </div>
+        </section>
+
+        <section class="projects">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3 class="project-title">🤖 AI Chatbot</h3>
+                    <p class="project-desc">Intelligent chatbot powered by local AI models. Built for local businesses to automate customer service.</p>
+                </div>
+                <div class="project-card">
+                    <h3 class="project-title">🎨 Portfolio Website</h3>
+                    <p class="project-desc">Modern, responsive portfolio built with pure HTML/CSS/JS. This very website you're looking at!</p>
+                </div>
+                <div class="project-card">
+                    <h3 class="project-title">⚡ Chrome Extension</h3>
+                    <p class="project-desc">AI-powered productivity tool. Coming soon to Chrome Web Store.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <h2 class="section-title">Need a Website or AI Tool?</h2>
+            <p style="margin: 20px 0; font-size: 1.2em;">I build modern websites and AI solutions</p>
+            <a href="mailto:esteban.create@outlook.com" class="cta-button">Work With Me</a>
+        </section>
+
+        <footer class="contact">
+            <p>📧 esteban.create@outlook.com</p>
+            <p>📍 Tijuana, Mexico</p>
+            <p>💼 Available for freelance projects</p>
+        </footer>
+    </div>
+
+    <script>
+        // Animated counters
+        function animateCounter(id, target, duration) {
+            const el = document.getElementById(id);
+            let current = 0;
+            const increment = target / (duration / 16);
+            
+            const timer = setInterval(() => {
+                current += increment;
+                if (current >= target) {
+                    el.textContent = target;
+                    clearInterval(timer);
+                } else {
+                    el.textContent = Math.floor(current);
+                }
+            }, 16);
+        }
+
+        // Update daily
+        const startDate = new Date('2024-12-12');
+        const today = new Date();
+        const days = Math.floor((today - startDate) / (1000 * 60 * 60 * 24)) + 1;
+        
+        animateCounter('days', days, 1000);
+        animateCounter('projects', 1, 1500);
+        animateCounter('commits', 5, 2000);
+    </script>
+</body>
+</html>
+
+# 在终端运行：
+cd ~
+mkdir projects
+cd projects
+mkdir portfolio
+cd portfolio
+
+# 用Cursor打开这个文件夹
+cursor .
