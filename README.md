@@ -1,8 +1,16 @@
-Hi, I’m a 17-year-old developer from Mexico.  
-I build modern websites and small apps using HTML, JS, CSS.  
+# Hi, I'm Esteban 👋
 
-Check out my portfolio and projects:  
-- Portfolio: [Portfolio Website](https://your-portfolio-vercel-link.vercel.app)  
-- Todo App: [Todo App](https://todo-p3ncljjku-estebans-projects-fe2179f1.vercel.app)  
+I'm a 17-year-old developer from Mexico.
+I build modern websites & small apps using HTML, JS, and CSS.
 
-DM me if interested!
+## Projects
+
+### Day 1: Portfolio Website
+- Production: <你的 Day 1 Portfolio Vercel 链接>
+
+### Day 2: Todo App
+- Production: https://todo-p3ncljjku-estebans-projects-fe2179f1.vercel.app
+
+## Contact
+DM me if interested in collaboration or projects!
+
