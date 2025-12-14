@@ -1,12 +1,8 @@
-# 💻 Esteban's Projects
+Hi, I’m a 17-year-old developer from Mexico.  
+I build modern websites and small apps using HTML, JS, CSS.  
 
-Hi! I’m 17 years old, building websites and apps.
+Check out my portfolio and projects:  
+- Portfolio: [Portfolio Website](https://your-portfolio-vercel-link.vercel.app)  
+- Todo App: [Todo App](https://todo-p3ncljjku-estebans-projects-fe2179f1.vercel.app)  
 
-## Available for freelance
-💼 Modern websites & small apps  
-📧 Contact: esteban.create@outlook.com
-
-## Projects
-- Portfolio Website: [Portfolio](https://your-portfolio-link.vercel.app)
-- Todo App: [Todo App](https://todo-p3ncljjku-estebans-projects-fe2179f1.vercel.app)
-- Weather App: [Weather App](https://your-weather-app-link.vercel.app)
+DM me if interested!
